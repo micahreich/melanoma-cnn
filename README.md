@@ -26,6 +26,10 @@ The architecture of this model resembles that of AlexNet, a high performing conv
 | 10  | Fully Connected Layer | 4096 neurons & outputs |
 | 11  | Output Layer w/ Softmax activation | 3 output neurons |
 
+## To Do
+Below are some changes I will implement which will help the performance of the model and it's general efficiency
+- [ ] Use Tensorflow's "Dataset" module to feed data into training rather than feed_dict
+
 ## Attributions
 AlexNet paper: https://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf
 
