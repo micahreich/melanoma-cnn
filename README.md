@@ -28,5 +28,8 @@ The architecture of this model resembles that of AlexNet, a high performing conv
 
 ## Attributions
 AlexNet paper: https://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf
+
 Medium Post by Hao Gao: https://medium.com/@smallfishbigsea/a-walk-through-of-alexnet-6cbd137a5637
+
 A Helpful Tool for Downloading the ISIC Dataset: https://github.com/GalAvineri/ISIC-Archive-Downloader
+
