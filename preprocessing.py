@@ -13,15 +13,15 @@ def get_data(training):
     images_arr = []
     labels = []
 
-    for filename in os.listdir("Data/Descriptions"):
+    for filename in os.listdir("Dataset/Descriptions"):
         image = Image.open(
-            "Data/Images/" + filename + ".jpeg")
+            "Dataset/Images/" + filename + ".jpeg")
         image = image.resize((new_width, new_height), PIL.Image.ANTIALIAS)
 
         images_arr.append(np.array(image))
 
-    for filename in os.listdir("Data/Descriptions"):
-        f = open("Data/Descriptions/" + filename)
+    for filename in os.listdir("Dataset/Descriptions"):
+        f = open("Dataset/Descriptions/" + filename)
         for i, line in enumerate(f):
             if "benign_malignant" in line:
                 if line[27] == "b":
@@ -36,7 +36,9 @@ def get_data(training):
     encoder = LabelBinarizer()
     transfomed_labels = encoder.fit_transform(labels)
     print(transfomed_labels[0])
+    
     #   80% of data used for training, 20% used for testing
+    
     train_imgs = images_arr[:int(len(images_arr * 0.8))]
     train_labels = transfomed_labels[:int(len(transfomed_labels * 0.8))]
     test_imgs = images_arr[int(len(images_arr * 0.2)):]
@@ -72,5 +74,3 @@ def get_data(training):
         print(str(len(test_labels)) + " Training labels in dataset")
         return test_imgs, test_labels
 
-
-get_data(True)
