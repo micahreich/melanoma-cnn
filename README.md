@@ -1,4 +1,5 @@
 # Cancerous Mole Detection CNN
+By Micah Reich - 2018
 *A convolutional neural network built with Tensorflow which classifies moles as malignant, benign or indeterminate based on an image*
 
 ### 😃 Introduction
