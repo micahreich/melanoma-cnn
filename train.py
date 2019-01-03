@@ -1,3 +1,8 @@
+"""
+Implementation of CNN in TF
+Model will predict if mole images are malignant or benign
+Micah Reich
+"""
 import tensorflow as tf
 from model import *
 from preprocessing import *
