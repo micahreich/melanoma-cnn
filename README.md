@@ -31,6 +31,7 @@ The architecture of this model resembles that of AlexNet, a high performing conv
 ## ✅ To Do
 Below are some changes I will implement which will help the performance of the model and it's general efficiency
 - [ ] Use Tensorflow's "Dataset" module to feed data into training rather than feed_dict
+- [ ] Implement normalization layers in model
 
 ## 👏 Attributions
 AlexNet paper: https://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf
