@@ -1,6 +1,6 @@
 """
 Implementation of CNN in TF
-Model will predict chest diseases based on NIH Chest Xray Dataset
+Model will predict if mole images are malignant or benign
 Micah Reich
 """
 import tensorflow as tf
