@@ -32,7 +32,7 @@ with tf.Session() as sess:
                       "{:.6f}".format(loss) + ", Training Accuracy= " + \
                       "{:.5f}".format(acc))
 
-        # Calculate accuracy for all 10000 mnist test images
+        
         test_acc,valid_loss = sess.run([accuracy, cost], feed_dict={X: test_images,Y : test_labels})
         train_loss.append(loss)
         test_loss.append(valid_loss)
