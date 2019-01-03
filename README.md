@@ -4,6 +4,10 @@
 ## 😃 Introduction
 This project serves as a demonstration of how machine learning and deep neural networks can achieve high accuracies in medical-classification. Specifically, the data used in this model was the International Skin Imaging Collaboration's (ISIC) dataset of ~25,000 hand-labeled images of benign and malignant skin moles.
 
+## 🧠 Deep Neural Networks
+Neural networks are a set of algorithms, modeled loosely after the human brain, that are designed to recognize patterns. They interpret sensory data through a kind of machine perception, labeling or clustering raw input. The patterns they recognize are numerical, contained in vectors, into which all real-world data, be it images, sound, text or time series, must be translated.
+(Skymind.ai)
+
 ## 📄 Dataset
 As mentioned above, this model was trained with the goal of classifying images of moles as benign, malignant or indeterminant. More information about the ISIC and their numerous datasets can be found at their website, https://www.isic-archive.com/#!/topWithHeader/wideContentTop/main.
 
