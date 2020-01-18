@@ -30,6 +30,7 @@ python train.py
 That's it! Training should begin; training times will be dependent upon the user's GPU or CPU capabilities
 
 ## Neural Network Structure
+The model's structure follows that of the AlexNet CNN classifier structure defined in "ImageNet Classification with Deep Convolutional Neural Networks" by Alex Krizhevsky, Geoffrey E. Hinton et al.
 | Order  | Layer Title | Layer Dimensions  | 
 | ------------- | ------------- |-------|
 | 1  | 2D Convolutional Layer w/ ReLU activation  | 96 filters of size 11 x 11  with a stride of 4 |
