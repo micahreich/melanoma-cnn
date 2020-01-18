@@ -33,7 +33,7 @@ That's it! Training should begin; training times will be dependent upon the user
 The model's structure follows that of the AlexNet CNN classifier structure defined in "ImageNet Classification with Deep Convolutional Neural Networks" by Alex Krizhevsky, Geoffrey E. Hinton et al:
 
 | Order  | Layer Title | Layer Dimensions  | 
-| ------------- | ------------- |-------|
+| ------------- | ---------------- |----------|
 | 1  | 2D Convolutional Layer w/ ReLU activation  | 96 filters of size 11 x 11  with a stride of 4 |
 | 2  | 2D Maxpooling Layer  | 3x3 kernel size with a stride of 2 |
 | 3  | 2D Convolutional Layer w/ ReLU activation  | 256 filters of size 5 x 5  with a stride of 1 |
