@@ -13,8 +13,8 @@ The contents of this repository can all be installed in one location. Please ref
 
     .
 	├── Dataset/
-		├── Descriptions /    # Contains metadata and labels for training images
-		├── Images /    # Contains training images
+		├── Descriptions/    # Contains metadata and labels for training images
+		├── Images/    # Contains training images
     ├── model.py    # Contains code for structure of AlexNet CNN model
     ├── preprocessing.py    # Contains code for data preprocessing to be fed into AlexNet
     ├── train.py     # CNN training pipeling
